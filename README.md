@@ -21,7 +21,7 @@ After installation, configure each time slot separately on the **每日排程** 
 
 ## Repository contents
 
-- `TimeScheduleAutomation_v3.4.32_Python版.zip` — first install package.
+- `TimeScheduleAutomation_v3.4.32_Python%E7%89%88.zip` — first install package.
 - `TimeScheduleAutomation_v3.4.32_SHA256SUMS.txt` — package checksum.
 - `updates/manifest.json` — auto-update manifest used by the application.
 - `GitHub發布主控台.pyw` — Windows GUI for creating future GitHub Releases, uploading package and checksum assets, and updating the manifest.
@@ -29,9 +29,9 @@ After installation, configure each time slot separately on the **每日排程** 
 
 ## Publishing future releases
 
-Install GitHub CLI (`gh`), then run `gh auth login` and sign in to GitHub with an account that can write to this repository. Open `GitHub發布主控台.pyw`, choose the versioned ZIP, review the release notes, and click **檢查並發布 Release**. The console creates the Release, uploads the ZIP and SHA-256 file, and updates `updates/manifest.json` so installed clients can find the new version.
+Open `GitHub發布主控台.pyw`, enter a fine-grained GitHub token, choose the versioned ZIP, review the release notes, and click **檢查並發布 Release**. Grant the token access only to this repository and set the **Contents** permission to **Read and write**. The console creates the Release, uploads the ZIP and SHA-256 file, and updates `updates/manifest.json` so installed clients can find the new version.
 
-The publisher uses GitHub CLI's credential store. It does not put access tokens in the project or release files. Use a new version tag for each release; an existing tag is not overwritten.
+The token is masked in the interface, used only while the console is running, and is not saved to disk or included in logs. Use a new version tag for each release; an existing tag is not overwritten.
 
 ## Permissions and data
 
