@@ -1,8 +1,8 @@
 {
   "product": "TimeScheduleAutomation",
   "channel": "stable",
-  "version": "3.4.32",
-  "asset": "TimeScheduleAutomation_v3.4.32_Python版.zip",
-  "sha256": "798d12179123f3068a07dba177dd1a86e8dfc14a5081b272c2271533ee9f6288",
-  "download_url": "https://raw.githubusercontent.com/mathersky/TimeScheduleAutomation/main/TimeScheduleAutomation_v3.4.32_Python%E7%89%88.zip"
+  "version": "3.4.33",
+  "asset": "TimeScheduleAutomation_v3.4.33_Python版.zip",
+  "sha256": "ebd94d036d4d89583ef8c42cded31a08e2da519d9c6022e792ad02d9c0295122",
+  "download_url": "https://raw.githubusercontent.com/mathersky/TimeScheduleAutomation/main/TimeScheduleAutomation_v3.4.33_Python%E7%89%88.zip"
 }
