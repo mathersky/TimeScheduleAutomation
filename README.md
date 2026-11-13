@@ -21,7 +21,7 @@ After installation, configure each time slot separately on the **每日排程** 
 
 ## Repository contents
 
-- `TimeScheduleAutomation_v3.4.32_Python%E7%89%88.zip` — first install package.
+- `TimeScheduleAutomation_v3.4.32_Python版.zip` — first install package.
 - `TimeScheduleAutomation_v3.4.32_SHA256SUMS.txt` — package checksum.
 - `updates/manifest.json` — auto-update manifest used by the application.
 - `GitHub發布主控台.pyw` — Windows GUI for creating future GitHub Releases, uploading package and checksum assets, and updating the manifest.
