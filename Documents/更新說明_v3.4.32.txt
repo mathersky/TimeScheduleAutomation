@@ -1,0 +1,8 @@
+TimeScheduleAutomation v3.4.32｜Python 版
+
+- 軟體顯示名稱改為 TimeScheduleAutomation。
+- 每個每日時段可分別指定週一至週日；舊版共用星期設定自動套用至既有時段。
+- 每日排程勾選項目使用 Windows 原生核取方框。
+- 修正上傳結果視窗誤判，僅辨識指定結果視窗標題或明確完成文字。
+- 手動流程成功後不再顯示完成確認視窗，改寫入每日執行紀錄。
+- 更新檢查改用 TimeScheduleAutomation GitHub Repository 的更新清單。
