@@ -14,14 +14,14 @@
 
 Download the ZIP below, extract the entire folder, and double-click `安裝軟體.cmd`. The setup uses an existing Python 3.12 or later runtime and installs required packages from PyPI when needed. Windows 10/11, Chrome, PHIS, and PhisSocket are required.
 
-[Download v3.4.32 installer ZIP](https://raw.githubusercontent.com/mathersky/TimeScheduleAutomation/main/TimeScheduleAutomation_v3.4.32_Python版.zip)  
+[Download v3.4.32 installer ZIP](https://raw.githubusercontent.com/mathersky/TimeScheduleAutomation/main/TimeScheduleAutomation_v3.4.32_Python%E7%89%88.zip)  
 [SHA-256 checksum](https://raw.githubusercontent.com/mathersky/TimeScheduleAutomation/main/TimeScheduleAutomation_v3.4.32_SHA256SUMS.txt)
 
 After installation, configure each time slot separately on the **每日排程** tab, then choose **同步排程**. Windows must remain signed in with an interactive, unlocked desktop at scheduled execution time.
 
 ## Repository contents
 
-- `TimeScheduleAutomation_v3.4.32_Python版.zip` — first install package.
+- `TimeScheduleAutomation_v3.4.32_Python%E7%89%88.zip` — first install package.
 - `TimeScheduleAutomation_v3.4.32_SHA256SUMS.txt` — package checksum.
 - `updates/manifest.json` — auto-update manifest used by the application.
 - `GitHub發布主控台.pyw` — Windows GUI for creating future GitHub Releases, uploading package and checksum assets, and updating the manifest.
